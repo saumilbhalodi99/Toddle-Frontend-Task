@@ -1,0 +1,152 @@
+h1{
+	background: rgb(255, 88, 105);
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+/*
+ul{
+	list-style: none;
+	margin:	0;
+	padding: 0;
+}
+*/
+body{
+	font-family: Roboto;
+	background: #1F1C2C;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.deleteColour{
+	color : #ff5869;
+}
+
+.indentColour{
+	color : #ff5869;
+}
+
+.outdentColour{
+	color : #ff5869;
+}
+
+.textClass{
+	font-size : 1.3em;
+}
+
+.deleteHover{
+	visibility: hidden;
+	width: 5em;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding-top: 0.65em;
+	margin-left: 1.1em;
+	margin-top: 1.3em;
+/* Position the tooltip */
+    position: absolute;
+	z-index: 1;
+}
+
+.plusHover{
+	font-size: 0.6em;
+	visibility: hidden;
+	width: 6.4em;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	/*padding: 1px 0;*/
+	margin-left: 14em;
+	margin-top: 2.5em;
+/* Position the tooltip */
+    position: absolute;
+	z-index: 1;
+}
+
+#delete:hover .deleteHover{
+	visibility : visible;
+}
+
+#indentHover:hover .deleteHover{
+	visibility : visible;
+}
+
+#outdentHover:hover .deleteHover{
+	visibility : visible;
+}
+
+h1:hover .plusHover{
+	visibility : visible;
+}
+
+
+/*li{
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+*/
+div:nth-child(2n){
+	background: #f4f1f1;
+	/*background: black;*/
+}
+
+span{
+	/*background:	rgb(255, 88, 105);*/
+	height:	2em;
+	border: 1px; 
+	/*margin-right: 20px;*/
+	text-align: center;
+	color: black;
+	width: 1.3em;
+	display: inline-block;
+	/*padding-left : 0px;*/
+	/*padding-right : 0px;*/
+	padding-top : 0.5em;
+	/*transition: 0.2s linear;*/
+}
+
+
+input{
+	font-size: 18px;
+	color: rgb(255, 88, 105);
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing:	border-box;
+	border: 3px solid rgba(0,0,0,0);
+}
+
+::placeholder{
+	color: rgb(255, 88, 105);
+	opacity: 1.0;
+	font-weight: lighter;
+}
+
+input:focus{
+	background: #fff;
+	border: 3px solid rgb(255, 88, 105);
+	outline: none;
+}
+
+.fa-plus{
+	float: right;
+}
+
+#container{
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	width: 50em;
+	margin: 5em auto;
+	padding: 0.7em;
+	background: #f7f7f7;
+}
+
+
+
